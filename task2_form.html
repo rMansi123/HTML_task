@@ -6,20 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .x{
+        *{box-sizing: border-box;}
+        body{
             height: 100vh;
-            background:linear-gradient(rgba(204, 114, 114, 0.852),rgba(232, 110, 110, 0.82),rgba(169, 140, 225, 0.82))
+            margin: 0;
+            background:linear-gradient(-45deg,rgba(230, 220, 185, 0.852),rgba(232, 110, 110, 0.82),rgba(143, 109, 210, 0.82))
+        }
+
+        .x{
+            padding: 150px;
         }
         .y{
-            background: linear-gradient(rgba(223, 173, 173, 0.852),rgba(226, 135, 170, 0.82));
+            background: linear-gradient(rgba(173, 208, 223, 0.852),rgba(190, 226, 135, 0.82));
             width: 400px;
             height: 300px;
-            /* text-align: center; */
-
-            padding: 20px 0;
-            margin: 100px auto;
-            
+            padding: 20px 20px;
+            margin:  auto;            
             box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+            opacity: 1;
+            border-radius: 5px;
+            /* line-height: 1.8; */
             
         }
         .h{
@@ -30,10 +36,14 @@
         form input{
             border-style: outset;
             border-radius: 130px 130px 130px 130px;
-            padding: 10px;
+            width: 350px;
+            height: 30px;
+            margin: 10px 0;
+            padding: 20px 20px;
+            /* border: 1px solid #ccc; */
         }
         .btn{
-            padding: 10px;
+            padding: 5px 20px;
         }
     </style>
 </head>

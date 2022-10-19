@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        .full-screencontainer{
+            background-image: url("loginpage1.jpg");
+            height: 100vh;
+            /* width: 100vw; */
+            /* background-repeat: no-repeat; */
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logincontainer{
+            background-color: rgba(223, 178, 102, 0.6);
+            box-shadow: 0 0 10px gray;
+            padding: 40px 30px;
+            width: 400px;
+            height: 300px;
+
+        }
+        .logintitle{
+            margin: 0;
+            color: #fff;
+            text-align: center;
+            
+        }
+        input{
+           /* padding: 8px 85px; */
+           text-align: left;
+           /* border: none; */
+           margin: 10px 0;
+           background-color: rgba(255, 228, 196, 0.6);
+           border: 0px;
+           width: 100%;
+           padding: 8px 0;
+           
+        }
+        ::placeholder{
+            color: rgb(253, 101, 0);
+            opacity: 0.8;
+
+        }
+        button{
+            padding: 10px 0; 
+            background-color: bisque;
+            border: none;
+            color: rgb(253, 101, 0);
+            margin: 10px 0;
+            width: 100%;
+        }
+        p{
+            text-align: center;
+        }
+        span{
+            color: rgb(253, 101, 0);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="full-screencontainer">
+        <div class="logincontainer">
+            <h1 class="logintitle">Login</h1>
+            <input type="text" name="Username"  placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
+            <button>Login</button>
+            <p>Not a member?<span>sign up</span></p>
+        </div>
+    </div>
+</body>
+</html>
