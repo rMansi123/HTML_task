@@ -12,7 +12,12 @@
         body{
             margin: 0;
         }
-        
+        table{
+            width: 100%;
+        }
+        th{
+            font-size: 30px;
+        }
         .full-screencontainer{
             background-image: url("loginpage1.jpg");
             height: 100vh;
@@ -39,7 +44,7 @@
         }
         input{
            /* padding: 8px 85px; */
-           text-align: left;
+           /* text-align: left; */
            /* border: none; */
            margin: 10px 0;
            background-color: rgba(255, 228, 196, 0.6);
@@ -61,18 +66,20 @@
             margin: 10px 0;
             width: 100%;
         }
-        p{
+        .x{
             text-align: center;
         }
+        
         span{
             color: rgb(253, 101, 0);
         }
+        
     </style>
 </head>
 <body>
     <div class="full-screencontainer">
         <div class="logincontainer">
-            <table align="center" >
+            <table align="center">
                 <th class="logintitle">Login</th>
                 <tr>
                     <td><input type="text" name="Username" placeholder="Username"></td>
@@ -86,7 +93,7 @@
                     
                     </tr>
                     <tr>
-                    <td>Not a member?<span>sign up</span></td>
+                    <td class="x">Not a member?<span>sign up</span></td>
                     
                     </tr>
                 </tr>
