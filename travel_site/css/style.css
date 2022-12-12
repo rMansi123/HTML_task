@@ -1,0 +1,163 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+body{
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+.container{
+    height: 600px;
+    background: url(../images/Maldives.jpg);
+    /* background-color: gray; */
+    margin: 0;
+    background-size: 100%;
+    
+    /* background-position: 50% 0%; */
+    
+}
+.nav{
+    /* background-color: red; */
+    /* background: transparent; */
+    height: 100px;
+    /* width: 1400px; */
+
+    
+      
+}
+.navcontainer{
+    
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+}
+.logocontainer{
+    width: 170px;
+    height: 100px;
+    background-color: black;
+    padding: 10px 20px;
+}
+.logo{
+    font-size: 30px;
+    text-decoration: none;    
+    color: #fff;
+    /* padding-top: 1.5rem;
+    padding-bottom: 1.5rem; */
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+span{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.9);
+    display: block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 8px;
+    
+}
+.navbarcontauner{
+    width: 940px;
+}
+li{
+    display: inline;
+    padding-right: 20px;
+    
+}
+.links{
+    margin-left: 400px;
+    padding: 25px;
+    color: #fff;
+    padding-top: 40px;
+    /* font-size: 17px; */
+}
+.book{
+    background: #f9ab30;
+    padding: 20px;
+}
+.headingSearchContainer{
+    height: 500px;
+    width: 1100px;
+    background-color: beige;
+    margin: 0 auto;
+    /* display: flex; */
+}
+.heading{
+    height: 370px;
+    width: 1100px;
+    /* background-color: cadetblue; */
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(255, 255, 255, 0.9);
+}
+h1{
+   margin-bottom: 20px;
+   color: rgb(255, 255, 255, 0.9);
+
+}
+
+.searchbar{
+    height: 130px;
+    width: 1100px;
+    background-color: black;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15;
+    margin-left: -15;
+}
+.col1{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%; 
+}
+.form-grp{
+    margin-bottom: 1rem;
+}
+label{
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.searchbtn{
+    background-color: #f9ab30;
+    font-size: 16px;
+    padding: 22px 10px;
+    border-radius: 90px;
+    color: #fff;
+}
+.maininfo{
+    height: 600px;
+    width: 100%;
+    background-color: #999999;
+    display: flex;
+
+}
+.activitiesinfo{
+    height: 600px ;
+    width: 50%;
+    background-color: burlywood;
+}
+.activities{
+    height: ;
+}
+.info{
+    height: 600px;
+    width: 50%;
+    background-color: brown;
+}
+h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(255, 255, 255, 0.9);
+    line-height: 1.4;
+   
+}
+
+
+
