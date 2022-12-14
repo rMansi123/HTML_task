@@ -7,12 +7,14 @@ body{
     font-weight: 400;
     color: #999999;
 }
+/* ------------------------- navigation bar ---------------------  */
 .container{
     height: 600px;
-    background: url(../images/Maldives.jpg);
+    background: url(../images/bg_1.jpg);
     /* background-color: gray; */
     margin: 0;
     background-size: 100%;
+    opacity: 0.8;
     
     /* background-position: 50% 0%; */
     
@@ -48,7 +50,7 @@ body{
     letter-spacing: 1.5px;
     font-weight: bold;
 }
-span{
+.travelAg{
     font-size: 12px;
     font-weight: 600;
     color: rgba(255,255,255,0.9);
@@ -80,24 +82,27 @@ li{
 .headingSearchContainer{
     height: 500px;
     width: 1100px;
-    background-color: beige;
+    background:transparent;
     margin: 0 auto;
     /* display: flex; */
 }
 .heading{
     height: 370px;
     width: 1100px;
-    /* background-color: cadetblue; */
+    /* background: rgba(255,255,255,0.2) !important; */
+    background-color: transparent;
 }
-p{
+.p{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    /* line-height: 1.5; */
+    text-align: center;
     color: rgb(255, 255, 255, 0.9);
 }
-h1{
+.headingSearchContainer .heading .textheading{
    margin-bottom: 20px;
    color: rgb(255, 255, 255, 0.9);
+   text-align: center;
 
 }
 
@@ -106,6 +111,8 @@ h1{
     width: 1100px;
     background-color: black;
 }
+
+/* ------------------------- heading and search panel ---------------  */
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -118,46 +125,494 @@ h1{
     max-width: 100%; 
 }
 .form-grp{
-    margin-bottom: 1rem;
+    margin-bottom: 0;
+    position: relative;
 }
 label{
     display: inline-block;
     margin-bottom: 25px;
+    padding: 5px 0 0 10px ;
+
+}
+.formfiled{
+    position: relative;
 }
 .searchbtn{
     background-color: #f9ab30;
     font-size: 16px;
-    padding: 22px 10px;
-    border-radius: 90px;
+    padding: 22px 50px;
+    border-radius: 50px 50px;
     color: #fff;
+    font-size: 20px;
+    border: none;
+    /* position: absolute; */
 }
+input{
+    padding: 0;
+    padding-left: 20px;
+    display: block;
+    width: 100%;
+    height: inherit;
+    font-size: 18px;
+    border: none;
+    color: rgba(255, 255, 255, 0.4);
+    background: transparent;
+    border-radius: 0;
+}
+
+/* ----------------------- activities ---------------------------  */
 .maininfo{
     height: 600px;
     width: 100%;
-    background-color: #999999;
+    /* background-color: #999999; */
     display: flex;
-
+    margin-top: 80px;
 }
 .activitiesinfo{
     height: 600px ;
     width: 50%;
-    background-color: burlywood;
+    /* background-color: burlywood; */
+    /* display: flex; */
+}
+.act1{
+    height: 300px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
 }
 .activities{
-    height: ;
+    height: 300px;
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 40px;
 }
+.act2{
+    height: 300px;
+    width: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+}
+
 .info{
     height: 600px;
     width: 50%;
-    background-color: brown;
+    /* background-color: brown; */
+    padding: 30px;
+    position: relative;
+
 }
 h2{
     font-size: 50px;
     font-weight: 600;
-    color: rgb(255, 255, 255, 0.9);
+    /* color: rgb(255, 255, 255, 0.9); */
+    color: rgb(0, 0, 0 ,0.8);
     line-height: 1.4;
    
 }
+.maininfo .info .searchDestination{
+    background-color: #f9ab30;
+    color: #fff;
+    padding: 15px 30px 15px 30px;
+    border-radius: 40px;
+    position: absolute;
+    top: 63%;
+    left: 5%;
+}
+h3{    
+    color: rgb(0, 0, 0 ,0.8);
+}
+.icon{
+    color: #f9ab30;
+    
+}
+/* .fa-solid{
+    height: 50px;
+    width: 20px;
+} */
 
+/* ------------------ Make Your Tour Memorable -----------------  */
 
+.mainTour{
+    height: 600px;
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+}
+.aboutTour{
+    height: 600px;
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 40px;
+}
+.tourPic{
+    background: url(../images/about.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    /* padding: 40px; */
+}
+.about{
+    padding: 30px;
+}
+.tourp{
+    font-size: 19px;
+}
+.numbers{
+    height: 100px;
+    width: 100%;
+    /* background-color: #f9ab30; */
+    display: flex;
+}
+.No{
+    height: 100px;
+    width: 33.33%;
+    /* border: 1px solid black; */
+}
+.numberStrong{
+    font-weight: 600;
+    font-size: 28px;
+    color: #f9ab30;
+}
+/* ------------------------------ Best Places Destination ----------------------  */
+h1{
+    color: rgb(0, 0, 0 ,0.8);
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+.plc_card{
+	/* height: 350px; */
+    /* width: 100%; */
+	/*background: gray;*/
+	display: flex;
+    padding: 40px;
+}
 
+.plc_card .plc1{
+	height: 350px;
+	width: 25%;
+	/*background: lightblue;*/
+	margin: 20px;
+	position: relative;
+    border-radius: 40px;
+}
+
+.plc_card .plc1 span 
+{   
+    font-size: 20px;
+    position: absolute;
+	top:5%;
+	left:5%;
+}
+.plc_card .plc1 .tag{
+    position: absolute;
+    top: 80%;
+    right: 0;
+    background: #33313b;
+    padding: 4px 5px 4px 15px;
+    border-radius: 20px 0 0 20px;
+    color: #fff;
+    transition: all 0.3s;
+}
+.countryNm{
+    font-size: 16px;
+    color: #fff;
+}
+.plc1:hover .tag {
+    padding-right: 20px;
+    background: #f9ab30; }
+
+/* ------------------------- Tour Destination ------------------  */
+.dest{
+    height: 1200px;
+    /* background-color: thistle; */
+}
+.destPart{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    /* padding: 20px; */
+}
+.dest .destPart .dest_card{
+    /* height: 600px; */
+    width: 33.33%;
+    border: 1px solid lightgray;
+    display: flex;
+	margin: 20px;
+    position: relative;
+    
+
+}
+.dest .destPart .dest_card .destImg{
+    height: 350px;
+    width: 100%;
+    /* border: 3px solid yellow; */
+    /* padding: 20px; */
+   
+}
+.list{
+    display: inline;
+    color: #000000;
+    
+}
+.price{
+      position: absolute;
+      top: 60%;
+      left: 34%;
+      /* -webkit-transform: translateX(-50%); */
+      /* -ms-transform: translateX(-50%); */
+      /* transform: translateX(-50%); */
+      display: inline-block;
+      background: #f9ab30;
+      color: #fff;
+      margin: 0 auto;
+      padding: 8px;
+      font-size: 16px;
+      border-radius: 40px;
+      transition: all 0.3s;
+}
+.destText:hover .price{
+    background: #33313b;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.days{
+        font-size: 12px;
+        color: grey;
+}
+.destText{
+    padding: 20px;
+
+}
+.facilityIcons{
+    padding: 10px;
+    color: #f9ab30;
+}
+/* --------------------------- Tourist Feedback ----------------------- */
+.mainFd{
+    height: 600px;
+    background: url(../images/bg_3.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    margin-top: 250px;
+}
+.personFd{
+    height: 400px;
+    width: 100%;
+    /* background-color: #999999; */
+    display: flex;
+}
+.feedback{
+    margin-top: 25px;
+    height: 350px;
+    width: 33.33%;
+    margin: 20px;
+    /* position: relative; */
+    background: white;
+    /* padding: 0 20px; */
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+    border-radius: 5px;
+}
+.person{
+    display: flex;
+    padding: 0 20px 20px 20px;
+}
+.Ps{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.user-img{
+    width: 50%;
+    background-image: url(../images/person_1.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.user-img1{
+    width: 50%;
+    background-image: url(../images/person_2.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.user-det{
+    padding-left: 10px;
+}
+.user-name{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-left: 9px;
+    color: #000000; 
+
+}
+.user-info{
+    font-size: 16px;
+    color: #cccccc;
+    font-family:  sans-serif;
+
+}
+
+/* ---------------------- Recent Post --------------------  */
+
+.recentPost{
+    height: 600px;
+    /* background-color: #999999; */
+    /* margin: 20px; */
+    padding: 20px;
+}
+.post-card{
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: #33313b; */
+    display: flex;
+    /* padding: 20px; */
+}
+.peoplesPost{
+    height: 500px;
+    width: 400px;
+    /* border: 1px solid black; */
+    /* margin: 20px; */
+    margin: 0 20px;
+
+}
+.img{
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 270px;
+}
+.aboutPost{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.postDate{
+    position: absolute;
+    top: -41%;
+    left: 0;
+    padding: 5px 15px;
+    background: #f9ab30;
+    border-radius: 0 30px 0 0;
+    /* font-size: 16px; */
+    display: flex;
+}
+.one{
+    width: 55px;
+}
+.peoplesPost .aboutPost .postDate .one .day{
+    font-size: 50px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1;
+}
+.two{
+    width: calc(100% - 55px);
+}
+.yr{
+    display: block;
+    font-size: 13px;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.8); 
+}
+.mos{
+    display: block;
+    font-size: 13px;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.8);
+}
+.postHeading{
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    /* margin-top: 10px; */
+    transition: all 0.3s;
+}
+.aboutPost:hover .postHeading{
+    color: #f9ab30;
+    cursor: pointer;
+}
+/* ------------------------- footer ---------------------  */
+.footer{
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/footer-bg.jpg.webp);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: bottom center;
+    font-size: 16px;
+    /* background: #201e25; */
+    padding: 7em 0;
+  
+}
+.footerrow{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+.footer-col{
+    height: 500px;
+    width: 25%;
+    padding: 20px;
+}
+.f1{
+    margin: 10px;
+    
+}
+.footertext{
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.P{
+    font-size: 18px;
+}
+.ul{
+    list-style: none;
+}
+.li{
+    display: list-item;
+    font-size: 18px;
+    padding: 5px;
+}
+.copyright{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.socialIcons{
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+    padding: 10px 0;
+    /* opacity: 0; */
+    /* visibility: hidden; */
+}
+.twitter{
+    height: 40px;
+    width: 40px;
+    display: block;
+    /* float: left; */
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    position: relative;
+}
+.fa-brands{
+    position: absolute;
+    font-size: 20px;
+    top: 30%;
+    left: 28%;
+}
