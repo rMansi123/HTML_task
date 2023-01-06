@@ -1,0 +1,96 @@
+1. what is JavaScript?
+-> JavaSscript is an object-oriented computer programming language commonly used to create interactive effects within web browsers.
+
+2. What is the use of isNaN function? 
+-> The JavaScript isNaN () Function is used to check whether a given value is an illegal number or not. It returns true if the value is a NaN 
+   else returns false. It is different from the Number.isNaN () Method.
+
+3. What is negative Infinity? 
+-> In JavaScript, NEGATIVE_INFINITY is a property of number object which represents negative infinity (-Infinity). It can be explained as a number 
+   that is lower than any other number. It is a Read-Only property.
+
+4. Which company developed JavaScript?
+-> Netscape :- Is the name of the company which developed the javascript the founder of the javascript language is Brenden eich(born July 4, 1961).
+
+5. What are undeclared and undefined variables? 
+-> The difference between undefined and undeclared variables in JavaScript is: 
+   Undefined variable means a variable has been declared but does not have a value. 
+   Undeclared variable means that the variable does not exist in the program at all.
+
+6. Write the code for adding new elements dynamically?
+-> <html>
+		<head> <title>t1</title>
+		<script type="text/javascript">
+			function addNode() { 
+				var newP = document.createElement("p");
+				var textNode = document.createTextNode(" This is a new text node");
+				newP.appendChild(textNode); 
+				document.getElementById("firstP").appendChild(newP); }
+		</script> 
+		</head>
+		<body> 
+			<p id="firstP">firstP<p> 
+		</body>
+   </html>
+
+7. What is the difference between ViewState and SessionState? *
+-> The basic difference between these two is that the ViewState is to manage state at the client’s end, making state management easy for end-user 
+   while SessionState manages state at the server’s end, making it easy to manage content from this end too.
+
+8. What is === operator? 
+-> === is used for comparing two variables, but this operator also checks datatype and compares two values. Checks the equality of two operands 
+   without considering their type. Compares equality of two operands with their types. Return true if the two operands are equal. It will return false 
+   if the two operands are not equal.
+
+9. How to read and write a file using JavaScript? *
+-> 
+
+10. What are all the looping structures in JavaScript? 
+->
+    1. for / for in / for of / forEach
+    syntax:
+    for(intialization;condition;increment/decrement)
+    {
+
+    }
+
+
+    2. while 
+
+    intialization;
+    while(condition)
+    {
+        ..code;
+        increment;
+    }
+
+    3. do while 
+
+    intialization;
+    do
+    {
+	  ..code;
+	  increment;
+    }while(condition);
+
+11. How can you convert the string of any base to an integer in JavaScript?
+->  In JavaScript parseInt () function is used to convert the string to an integer.
+
+12. What is the function of the delete operator? *
+->  	
+
+13. What are all the types of Pop up boxes available in JavaScript?
+->  alert();
+    confirm();
+    window.prompt();
+    window.print();
+
+14. What is the use of Void (0)?
+->  
+
+15.How can a page be forced to load another page in JavaScript?
+-> 
+
+16.What are the disadvantages of using innerHTML in JavaScript?
+-> If you use innerHTML in JavaScript, the disadvantage is Content is replaced everywhere We cannot use it like "appending to innerHTML Even if 
+   you use +=like "innerHTML = innerHTML + 'html'" still the old content is replaced by html
