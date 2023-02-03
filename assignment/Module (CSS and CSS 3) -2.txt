@@ -1,0 +1,89 @@
+1. What are the benefits of using CSS? 
+-> i.  Reusability
+   ii. Saves time
+   iii.Easy maintenance
+   iv. w3c Recommendation
+   v.  File size
+   vi. Supported by multiple browsers
+
+2. What are the disadvantages of CSS?
+-> i.  Security issues
+   ii. Creates confusion
+   iii.Cross-browser issues
+   iv. Differences in display
+
+3. What is the difference between CSS2 and CSS3? 
+-> The biggest difference between CSS2 and CSS3 is that CSS3 is now split into different modules. 
+   Since each module makes its way through the W3C individually, there’s a wider range of browser support. 
+   Make sure you test your CSS3 pages in as many browsers and operating systems as possible to ensure compatibility.
+
+4. What do you understand by CSS opacity? 
+-> The opacity property sets the opacity level for an element.The opacity-level describes the transparency-level,
+   where 1 is not transparent at all, 0.5 is 50% see-through,and 0 is completely transparent. 
+
+5. How can the background color of an element be changed? 
+-> <style>
+	p{ background-color: pink; }
+   </style>
+
+6. How can image repetition of the backup be controlled?
+-> To control the repetition of an image in the background, use the background-repeat property. 
+   You can use no-repeat value for the background-repeat property if you do not want to repeat an image, 
+   in this case, the image will display only once.
+
+7. What is the use of the background-position property? 
+-> The background-position property sets the starting position of a background image.
+
+8. Which property controls the image scroll in the background? 
+-> The background-attachment property in CSS is used to specify the kind of attachment of the background image with respect to its container.
+
+9. Why should background and color be used as separate properties? 
+-> because backgroud property use for body background color or images and color property use
+   for change the font color.
+
+10. How to center block elements using CSS?
+-> div {
+            background: black;
+            color:white;
+            text-align: center;
+        }
+
+11. How to maintain the CSS specifications? 
+-> 
+
+12. What are the ways to integrate CSS as a web page? 
+-> 1. Inline 
+   2. Internal 
+   3. External
+
+13. What is embedded style sheets? 
+-> Embedded style sheets allow you to define styles for the whole HTML document in one place. Embedded style sheets refer to when you embed style sheet information 
+   into an HTML document using the tags in the head of your document.
+
+14. What are the external style sheets?
+->  An external style sheet is used to define the style for many HTML pages. With an external style sheet, you can change the look of an entire web site, by changing one file! 
+    To use an external style sheet, add a link to it in the section of the HTML page
+
+15. What are the advantages and disadvantages of using external style sheets?
+-> The advantages of External Style Sheets are:
+
+- Using them, the styles of multiple documents can be controlled from one file.
+- Classes can be created for use on multiple HTML element types in many documents.
+- In complex situations, selector and grouping methods can be used to apply styles.
+
+The disadvantages of External Style Sheets are:
+
+- In order to import style information for each document, an extra download is needed.
+- Until the external style sheet is loaded, it may not be possible to render the document.
+- For small number of style definitions, it is not viable.
+
+16. What is the meaning of the CSS selector?
+-> A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected 
+   to have the CSS property values inside the rule applied to them. The element or elements which are selected by the selector are referred to as the subject of the selector.
+
+17. What are the media types allowed by CSS? 
+-> 
+
+18. What is the rule set? 
+-> A rule, or “rule set,” is an instruction that tells browsers how to display specific elements on an HTML page. A rule set consists of a selector followed by a declaration block. 
+   The declaration tells a browser how to draw an element on a selected page.

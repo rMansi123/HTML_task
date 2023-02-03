@@ -43,7 +43,7 @@
    if the two operands are not equal.
 
 9. How to read and write a file using JavaScript? *
--> 
+-> document.write() and consol.log()
 
 10. What are all the looping structures in JavaScript? 
 ->

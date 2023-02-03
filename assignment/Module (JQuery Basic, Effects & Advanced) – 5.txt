@@ -1,0 +1,29 @@
+1. What is jQuery?
+-> Query is a lightweight, "write less, do more", JavaScript library.
+
+The purpose of jQuery is to make it much easier to use JavaScript on your website.
+
+jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+
+jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+
+The jQuery library contains the following features:
+
+	HTML/DOM manipulation
+	CSS manipulation
+	HTML event methods
+	Effects and animations
+	AJAX
+	Utilities
+
+2. How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery,JQuery Animation?
+-> Apply css using JQuery: The css() method sets or returns one or more style properties for the selected elements.
+	$("p").css("background-color");
+
+   Add class: $("#div1").addClass("classname");
+   Remove class:$("h1, h2, p").removeClass("classname");
+
+   JQuery animation: The jQuery animate() method is used to create custom animations.
+	Syntax:
+			$(selector).animate({params},speed,callback);
+
