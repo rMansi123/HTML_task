@@ -1,0 +1,47 @@
+1. What are the advantages of Bootstrap?
+-> there are following advantages of use of bootsarap.
+	->Open Source — Completely free to download and use.
+	->Easy to use —with the basic working knowledge of HTML, CSS and JavaScript anybody can start development with Bootstrap.
+	->Save lots of time — we can save lots of time and effort using the Bootstrap predefined design templates and classes.
+	->Compatible with browsers — it is compatible with most browsers that are Chrome, Firefox, Internet Explorer, Safari and Opera etc.
+	->Responsive features — Using Bootstrap we can also easily create responsive websites that appear more appropriately on different devices and screen resolutions.
+	->Consistent design — all Bootstrap components share the same design templates and styles through a central library, so the design and layout of our web pages will be consistent.
+
+2. What is a Bootstrap Container, and how does it work? 
+-> In Bootstrap, container is used to set the content's margins dealing with the responsive behaviors of your layout. 
+It contains the row elements and the row elements are the container of columns (known as grid system). The container 
+class is used to create boxed content. There are two container classes in Bootstrap: container.
+
+3.What are the default Bootstrap text settings? 
+->Bootstrap's global default font-size is 14px, with a line-height of 1.428.
+
+This is applied to the <body> and all paragraphs.
+
+In addition, all <p> elements have a bottom margin that equals half their computed line-height (10px by default).Bootstrap's global default font-size is 14px, with a line-height of 1.428.
+
+This is applied to the <body> and all paragraphs.
+
+In addition, all <p> elements have a bottom margin that equals half their computed line-height (10px by default).
+
+4.What do you know about the Bootstrap Grid System?
+->Bootstrap's grid system allows up to 12 columns across the page.
+If you do not want to use all 12 column individually, you can group the columns together to create wider columns.
+Bootstrap's grid system is responsive, and the columns will re-arrange depending on the screen size: On a big screen 
+it might look better with the content organized in three columns, but on a small screen it would be better if the content 
+items were stacked on top of each other.
+
+5. What is a Button Group, and what is the class for a basic Button Group? 
+-> The buttons in bootstrap are used in forms, dialogs, etc.In Bootstrap, button groups has group of buttons together on a single line. Button group is created using class .btn-group.
+
+6. How can you use Bootstrap to make thumbnails? 
+-> In bootstrap the .img-thumbnail class shapes the image to a thumbnail.
+
+7. In Bootstrap 4, what is flexbox?
+-> The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
+
+8. How can one create an alert in Bootstrap?
+-> Bootstrap provides an easy way to create predefined alert messages.
+Alerts are created with the .alert class, followed by one of the four contextual classes .alert-success, .alert-info, .alert-warning or .alert-danger:
+
+9. What is a bootstrap card and how would you create one? 
+-> A card in Bootstrap is a bordered box with some padding around its content. It includes options for headers, footers, content, colors, etc.
